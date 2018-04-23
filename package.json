@@ -22,7 +22,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --port=7002 --sticky",
+    "start": "egg-scripts start --port=7002 --daemon --sticky",
     "stop": "egg-scripts stop --title=egg-server-chat-room",
     "dev": "egg-bin dev --sticky",
     "debug": "egg-bin debug",
